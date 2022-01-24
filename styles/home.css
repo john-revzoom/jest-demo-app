@@ -1,0 +1,25 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup input,
+.submitBtn {
+  width: 100%;
+}
+
+.formGroup label {
+  text-align: left;
+}
